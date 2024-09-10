@@ -15,7 +15,7 @@ public class digits {
 		int width = userInput.nextInt();
 
 		int area = length * width;
-	//ystem.out.print("the area of the rectangle is:" + area);
+	//System.out.print("the area of the rectangle is:" + area);
 		System.out.print(area + " is the area of your rectangle!");
 		
 	}
