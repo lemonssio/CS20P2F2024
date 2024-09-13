@@ -19,6 +19,8 @@ public class gradeaverage1n2 {
 	int grade4 = userinput.nextInt();
 	System.out.print("please enter your fifth grade: ");
 	int grade5 = userinput.nextInt();
+	
+	wholegrade = ()
 
 	
 	
