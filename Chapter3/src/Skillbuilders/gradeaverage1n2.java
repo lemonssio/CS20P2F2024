@@ -20,9 +20,9 @@ public class gradeaverage1n2 {
 	System.out.print("please enter your fifth grade: ");
 	int grade5 = userinput.nextInt();
 	
-	wholegrade = ()
+	int wholegrade = ((grade1 + grade2 + grade3 + grade4 + grade5) / 5 );
 
-	
+	System.out.print(wholegrade);
 	
 	
 	
