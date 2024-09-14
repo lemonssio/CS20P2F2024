@@ -31,18 +31,20 @@ public class E14ELECTION {
 	System.out.print("Candiate Martinez:");
 	int Cmart = userInput.nextInt();
 	
-	int MartAll = Cmart += NJmart += NYCmart;
-	int AwbAll = NYCawb += NJawb += Cawb;
-	int together =  MartAll + AwbAll;
+	double MartAll = Cmart + NJmart + NYCmart;
+	double AwbAll = NYCawb + NJawb + Cawb;
+	double together =  MartAll + AwbAll;
+	
+	
 	
 	System.out.println("Candiates:");
 	System.out.println("Awbrey:");
 	System.out.println("  votes:" + AwbAll);
-	System.out.println("  Percentage:" + (AwbAll / together));
+	System.out.println("  Percentage:" + ( AwbAll /together) * 100);
 	
 	System.out.println("Martinez:");
 	System.out.println("  votes:" + MartAll);
-	System.out.println("  Percentage:" + (MartAll / together));
+	System.out.println("  Percentage:" + (MartAll/together) * 100);
 	System.out.println("Total Votes:" + together);
 	
 	
