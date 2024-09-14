@@ -39,11 +39,11 @@ public class E14ELECTION {
 	
 	System.out.println("Candiates:");
 	System.out.println("Awbrey:");
-	System.out.println("  votes:" + AwbAll);
+	System.out.println("  Votes:" + AwbAll);
 	System.out.println("  Percentage:" + ( AwbAll /together) * 100);
 	
 	System.out.println("Martinez:");
-	System.out.println("  votes:" + MartAll);
+	System.out.println("  Votes:" + MartAll);
 	System.out.println("  Percentage:" + (MartAll/together) * 100);
 	System.out.println("Total Votes:" + together);
 	
