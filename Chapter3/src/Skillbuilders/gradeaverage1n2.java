@@ -6,7 +6,7 @@ public class gradeaverage1n2 {
 
 	public static void main(String[] args) {
 	Scanner userinput = new Scanner(System.in);
-		
+		//
 	System.out.println("hello please enter your five grades and i'll give you the average!!");
 	
 	System.out.print("please enter your first grade: ");
